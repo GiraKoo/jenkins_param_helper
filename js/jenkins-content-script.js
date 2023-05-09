@@ -1,12 +1,13 @@
 // ==UserScript==
 // @name         Jenkins编译辅助插件
-// @version      1.1.1
-// @description  进行编译的时候，提供额外的筛选按钮
-// @author       GiKoo@aliyun.com
-// @updateURL    https://irisleon.com/js/jenkins-content-script.js
-// @downloadURL  https://irisleon.com/js/jenkins-content-script.js
+// @version      1.2.0
+// @description  进行编译的时候，提供额外的筛选按钮。如果功能不好使，请查看include路径是否正确
+// @author       girakoo@163.com
+// @updateURL    https://js.girakoo.com/jenkins_param_helper/jenkins-content-script.js
+// @downloadURL  https://js.girakoo.com/jenkins_param_helper/jenkins-content-script.js
 // @include      *://10.20.0.18:8081/*job/*/build*
 // @include      *://10.20.0.18/*job/*/build*
+// @include      *://*/*job/*/build*
 // @run-at       document_end
 // ==/UserScript==
 
@@ -14,7 +15,7 @@ var _headNode = document.getElementsByTagName('head')[0];
 
 var script = document.createElement("script");  //创建一个script标签
 script.type = "text/javascript";
-script.src = "https://irisleon.com/js/jenkins-function-script.js";
+script.src = "https://js.girakoo.com/jenkins_param_helper/jenkins-function-script.js";
 _headNode.appendChild(script);
 
 //第一次加载的时候初始化样式文件
