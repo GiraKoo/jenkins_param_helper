@@ -1,14 +1,14 @@
 // ==UserScript==
-// @name         Jenkins编译辅助插件
-// @version      1.2.0
-// @description  进行编译的时候，提供额外的筛选按钮。如果功能不好使，请查看include路径是否正确
-// @author       girakoo@163.com
-// @updateURL    https://res.girakoo.com/jenkins_param_helper/jenkins-content-script.js
-// @downloadURL  https://res.girakoo.com/jenkins_param_helper/jenkins-content-script.js
-// @include      *://10.20.0.18:8081/*job/*/build*
-// @include      *://10.20.0.18/*job/*/build*
-// @include      *://*/*job/*/build*
-// @run-at       document_end
+// @name         	Jenkins编译辅助插件
+// @version      	1.3.0
+// @description  	进行编译的时候，提供额外的筛选按钮。如果功能不好使，请查看match路径是否正确
+// @author       	girakoo@163.com
+// @updateURL    	https://res.girakoo.com/jenkins_param_helper/jenkins-content-script.js
+// @downloadURL  	https://res.girakoo.com/jenkins_param_helper/jenkins-content-script.js
+// @match      		*://10.20.0.18:8081/*job/*/build*
+// @match      		*://10.20.0.18/*job/*/build*
+// @match      		*://*/*job/*/build*
+// @run-at       	document_end
 // ==/UserScript==
 
 var _headNode = document.getElementsByTagName('head')[0];
