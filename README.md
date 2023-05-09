@@ -4,3 +4,5 @@
 
 - jenkins-function-script.js：加载网站时，插入到html的js脚本
 - jenkins-content-script.js：暴力猴和油猴脚本
+
+该服务上已经部署到[js.girakoo.com](https://js.girakoo.com/jenkins_param_helper/jenkins-content-script.js)
