@@ -2,19 +2,21 @@
 @name:en HarmonyOS Sans SC
 @name 鸿蒙黑体
 @namespace zmoji
-@version 1.1
+@version 1.2
 @license MIT
 @preprocessor default
 ==/UserStyle== */
+
 /* 字体设定 */
+
 html {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
 }
 
-body {
-    font-family: 'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'Microsoft YaHei', '方正兰亭黑_GB18030',
+body, div, h1, h2, h3, h4, h5, p, a {
+    font-family: 'Myriad Pro', 'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'Microsoft YaHei', '方正兰亭黑_GB18030',
     '方正兰亭黑_GBK', system-ui, -apple-system, ui-sans-serif, sans-serif,
     'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji',
     emoji;
@@ -26,7 +28,7 @@ kbd,
 samp {
     font-family: 'JetBrains Mono', 'Cascadia Code', 'Noto Mono', 'SF Mono', 'Roboto Mono',
     ui-monospace, monospace, 'Apple Color Emoji', 'Segoe UI Emoji',
-    'Segoe UI Symbol', 'Noto Color Emoji', emoji;
+    'Segoe UI Symbol', 'Noto Color Emoji', emoji !important;
 }
 
 button,
@@ -45,10 +47,10 @@ html:lang(zh-Hans) body,
 html:lang(cmn) body,
 html:lang(cmn-Hans) body,
 html:lang(zh-cmn-Hans) body {
-    font-family: 'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'Microsoft YaHei', '方正兰亭黑_GB18030',
+    font-family: 'Myriad Pro', 'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'Microsoft YaHei', '方正兰亭黑_GB18030',
     '方正兰亭黑_GBK', system-ui, -apple-system, ui-sans-serif, sans-serif,
     'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji',
-    emoji;
+    emoji !important;
     quotes: '“' '”';
 }
 html:lang(zh) pre,
@@ -81,7 +83,7 @@ html:lang(zh-cmn-Hans) kbd,
 html:lang(zh-cmn-Hans) samp {
     font-family: 'JetBrains Mono', 'Cascadia Code', 'Noto Mono', 'SF Mono', 'Roboto Mono',
     ui-monospace, monospace, 'Apple Color Emoji', 'Segoe UI Emoji',
-    'Segoe UI Symbol', 'Noto Color Emoji', emoji;
+    'Segoe UI Symbol', 'Noto Color Emoji', emoji !important;
 }
 html:lang(zh-TW) body,
 html:lang(zh-Hant) body,
@@ -89,7 +91,7 @@ html:lang(cmn-Hant) body,
 html:lang(zh-cmn-Hant) body {
     font-family: 'Microsoft JhengHei UI', 'Microsoft JhengHei', system-ui,
     -apple-system, ui-sans-serif, sans-serif, 'Apple Color Emoji',
-    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji', emoji;
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji', emoji !important;
     quotes: '「' '」';
 }
 html:lang(zh-TW) pre,
@@ -110,7 +112,7 @@ html:lang(zh-cmn-Hant) kbd,
 html:lang(zh-cmn-Hant) samp {
     font-family: 'JetBrains Mono', 'Cascadia Code', 'Noto Mono', 'SF Mono', 'Roboto Mono',
     ui-monospace, monospace, 'Apple Color Emoji', 'Segoe UI Emoji',
-    'Segoe UI Symbol', 'Noto Color Emoji', emoji;
+    'Segoe UI Symbol', 'Noto Color Emoji', emoji !important;
 }
 html:lang(zh-HK) body,
 html:lang(zh-MO) body,
@@ -119,7 +121,7 @@ html:lang(yue-Hant) body,
 html:lang(zh-yue-Hant) body {
     font-family: 'Microsoft JhengHei UI', 'Microsoft JhengHei', system-ui,
     -apple-system, ui-sans-serif, sans-serif, 'Apple Color Emoji',
-    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji', emoji;
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji', emoji !important;
     quotes: '「' '」';
 }
 html:lang(zh-HK) pre,
@@ -144,12 +146,12 @@ html:lang(zh-yue-Hant) kbd,
 html:lang(zh-yue-Hant) samp {
     font-family: 'JetBrains Mono', 'Cascadia Code', 'Noto Mono', 'SF Mono', 'Roboto Mono',
     ui-monospace, monospace, 'Apple Color Emoji', 'Segoe UI Emoji',
-    'Segoe UI Symbol', 'Noto Color Emoji', emoji;
+    'Segoe UI Symbol', 'Noto Color Emoji', emoji !important;
 }
 html:lang(ja) body {
     font-family: 'Yu Gothic UI', 'Yu Gothic', system-ui, -apple-system,
     ui-sans-serif, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-    'Segoe UI Symbol', 'Noto Color Emoji', emoji;
+    'Segoe UI Symbol', 'Noto Color Emoji', emoji !important;
     quotes: '「' '」';
 }
 html:lang(ja) pre,
@@ -158,12 +160,12 @@ html:lang(ja) kbd,
 html:lang(ja) samp {
     font-family: 'MS Gothic', 'Cascadia Code', 'Noto Mono', 'SF Mono',
     'Roboto Mono', ui-monospace, monospace, 'Apple Color Emoji',
-    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji', emoji;
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji', emoji !important;
 }
 html:lang(ko) body {
     font-family: 'Malgun Gothic', system-ui, -apple-system, ui-sans-serif,
     sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
-    'Noto Color Emoji', emoji;
+    'Noto Color Emoji', emoji !important;
 }
 html:lang(ko) pre,
 html:lang(ko) code,
@@ -171,7 +173,7 @@ html:lang(ko) kbd,
 html:lang(ko) samp {
     font-family: 'JetBrains Mono', 'Cascadia Code', 'Noto Mono', 'SF Mono', 'Roboto Mono',
     ui-monospace, monospace, 'Apple Color Emoji', 'Segoe UI Emoji',
-    'Segoe UI Symbol', 'Noto Color Emoji', emoji;
+    'Segoe UI Symbol', 'Noto Color Emoji', emoji !important;
 }
 html:lang(de) body,
 html:lang(nl) body,
@@ -208,7 +210,7 @@ html:lang(id) body,
 html:lang(ms) body {
     font-family: 'Segoe UI', 'Noto Sans', 'Roboto', ui-sans-serif, sans-serif,
     'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji',
-    emoji;
+    emoji !important;
 }
 html:lang(de) pre,
 html:lang(de) code,
@@ -344,7 +346,7 @@ html:lang(ms) kbd,
 html:lang(ms) samp {
     font-family: 'JetBrains Mono', 'Cascadia Code', 'Noto Mono', 'SF Mono', 'Roboto Mono',
     ui-monospace, monospace, 'Apple Color Emoji', 'Segoe UI Emoji',
-    'Segoe UI Symbol', 'Noto Color Emoji', emoji;
+    'Segoe UI Symbol', 'Noto Color Emoji', emoji !important;
 }
 html:lang(de) body {
     quotes: '„' '“';
@@ -363,7 +365,7 @@ html:lang(th) body,
 html:lang(vi) body {
     font-family: system-ui, -apple-system, ui-sans-serif, sans-serif,
     'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji',
-    emoji;
+    emoji !important;
 }
 html:lang(ar) pre,
 html:lang(ar) code,
@@ -382,7 +384,7 @@ html:lang(vi) code,
 html:lang(vi) kbd,
 html:lang(vi) samp {
     font-family: ui-monospace, monospace, 'Apple Color Emoji', 'Segoe UI Emoji',
-    'Segoe UI Symbol', 'Noto Color Emoji', emoji;
+    'Segoe UI Symbol', 'Noto Color Emoji', emoji !important;
 }
 
 /* 字体替换 */
