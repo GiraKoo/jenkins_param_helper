@@ -2,7 +2,7 @@
 @name:en HarmonyOS Sans SC
 @name 鸿蒙黑体
 @namespace zmoji
-@version 1.2
+@version 1.3
 @license MIT
 @preprocessor default
 ==/UserStyle== */
@@ -15,11 +15,11 @@ html {
     text-rendering: optimizeLegibility;
 }
 
-body, div, h1, h2, h3, h4, h5, p, a {
+body, div, h1, h2, h3, h4, h5, p, a, input {
     font-family: 'Myriad Pro', 'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'Microsoft YaHei', '方正兰亭黑_GB18030',
     '方正兰亭黑_GBK', system-ui, -apple-system, ui-sans-serif, sans-serif,
     'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji',
-    emoji;
+    emoji !important;
 }
 
 pre,
