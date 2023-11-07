@@ -1,0 +1,12 @@
+﻿/* ==UserStyle==
+@name:en Text Shadow
+@name 字体阴影
+@namespace zmoji
+@version 1.0
+@license MIT
+@preprocessor default
+==/UserStyle== */
+/* 字体设定 */
+body, div, h1, h2, h3, h4, h5, p, a, input, span, li {
+    text-shadow: 1px 1px 1px #b3b3b34a;
+}

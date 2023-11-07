@@ -2,24 +2,38 @@
 @name:en HarmonyOS Sans SC
 @name 鸿蒙黑体
 @namespace zmoji
-@version 1.4
+@version 1.5
 @license MIT
 @preprocessor default
 ==/UserStyle== */
-
 /* 字体设定 */
-
 html {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
 }
 
-body, div, h1, h2, h3, h4, h5, p, a, input, span, li {
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-family: 'Myriad Pro', 'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'Microsoft YaHei', '方正兰亭黑_GB18030',
     '方正兰亭黑_GBK', system-ui, -apple-system, ui-sans-serif, sans-serif,
     'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji',
     emoji !important;
+}
+
+p,
+a,
+input,
+span,
+li {
+    font-family: 'Myriad Pro', 'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'Microsoft YaHei', '方正兰亭黑_GB18030',
+    '方正兰亭黑_GBK', system-ui, -apple-system, ui-sans-serif, sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji',
 }
 
 pre,
